@@ -1,0 +1,35 @@
+h1 {
+  font-family: "Cormorant Garamond";
+  font-size: 32px;
+  font-weight: normal;
+  color: rgb(25, 25, 25);
+  margin-bottom: 0px;
+  padding-left: 80px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(25, 25, 25);
+  padding-left: 80px;
+}
+
+.landing-block {
+  background-image: url('/src/imgs/Resort-pexels-imadclicks-10964883.jpg');
+  width: 100vw;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.landing-gradient {
+  background: linear-gradient(to right, rgba(252, 252, 252, 1) 0%, rgba(252, 252, 252, 0) 100%);
+  position: absolute;
+  z-index: 10;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
