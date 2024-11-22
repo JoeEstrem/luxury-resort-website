@@ -1,4 +1,42 @@
 .navbar-container {
-  height: 80px;
-  background-color: red;
+  height: 72px;
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+  top: 0;
+}
+
+.navbar-setsuka {
+  padding: 16px;
+}
+
+.setsuka {
+  font-family: "Cormorant Garamond";
+  font-size: 40px;
+  margin: 0px;
+}
+
+.navbar-menu-items {
+  display: flex;
+  gap: 24px;
+}
+
+.menu-item {
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #B68E55;
+  color: rgb(25, 25, 25);
+  padding: 4px 16px 4px 16px;
+  transition: 0.25s ease;
+}
+
+.menu-item:hover {
+  color: rgb(252, 252, 252);
+  background-color: #B68E55;
 }
