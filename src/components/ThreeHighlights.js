@@ -25,7 +25,7 @@ function ThreeHighlights() {
       <div className="highlight-container">
         <img
           src={require('../imgs/Interior-pexels-roman-odintsov-7539892.jpg')}
-          alt="Highlight - World-class "
+          alt="Highlight - World-class"
           className="highlight-image"
         />
         <h3>World-class</h3>
@@ -34,7 +34,7 @@ function ThreeHighlights() {
       <div className="highlight-container">
         <img
           src={require('../imgs/Onsen-pexels-yaroslav-shuraev-7041568.jpg')}
-          alt="Highlight - World-class "
+          alt="Highlight - Wonder"
           className="highlight-image"
         />
         <h3>Wonderland</h3>
@@ -43,7 +43,7 @@ function ThreeHighlights() {
       <div className="highlight-container">
         <img
           src={require('../imgs/forest-ciprian-boiciuc-kKadFByUqEo-unsplash.jpg')}
-          alt="Highlight - World-class "
+          alt="Highlight - Wellness"
           className="highlight-image"
         />
         <h3>Wellness</h3>

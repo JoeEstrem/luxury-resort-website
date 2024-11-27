@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import Landing from './components/Landing';
 import ThreeHighlight from './components/ThreeHighlights';
+import Accomodation from './components/Accommodation';
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Landing />
       <ThreeHighlight />
+      <Accomodation />
     </div>
   );
 }

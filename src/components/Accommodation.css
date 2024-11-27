@@ -1,0 +1,40 @@
+.accommodation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  text-align: center;
+}
+
+.accommodation-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.accommodation-image-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.side-image {
+  width: 16vw;
+  height: 48vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.center-image {
+  width: 32vw;
+  height: 48vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.text-container {
+  width: 32vw;
+}
