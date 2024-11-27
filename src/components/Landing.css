@@ -7,18 +7,20 @@ h1 {
   padding-left: 80px;
 }
 
-p {
+.p-landing {
   font-family: sans-serif;
   font-size: 12px;
   font-weight: lighter;
   color: rgb(25, 25, 25);
-  padding-left: 80px;
+  padding: 8px 0px 0px 80px;
+  text-align: left;
+  margin-top: 0px
 }
 
 .landing-block {
   background-image: url('/src/imgs/Resort-pexels-imadclicks-10964883.jpg');
   width: 100vw;
-  height: 500px;
+  height: 64vh;
   background-size: cover;
   background-position: center;
 }
@@ -28,7 +30,7 @@ p {
   position: absolute;
   z-index: 10;
   width: 100vw;
-  height: 500px;
+  height: 64vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -10,7 +10,7 @@ function Landing() {
           Own more than a room—<br />
           own a lifestyle of distinction.
         </h1>
-        <p>Discover harmony in snow and serenity.</p>
+        <p className="p-landing">Discover harmony in snow and serenity.</p>
       </div>
     </div>
   )
