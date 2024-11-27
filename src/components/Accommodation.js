@@ -21,6 +21,7 @@ function Accomodation() {
   }, []);
 
   return (
+    <div>
     <div className="accommodation-container">
       <div className="accommodation-image-container">
         <img
@@ -45,6 +46,34 @@ function Accomodation() {
         <p>Escape to unparalleled luxury in Japan’s premier ski resort, where world-class comfort meets the serenity of pristine alpine beauty. Immerse yourself in wellness, with private onsens and tranquil spaces designed to rejuvenate mind and body. Embrace the wonder of endless powder slopes and breathtaking mountain vistas, all from the comfort of your exclusive retreat.</p>
       </div>
     </div>
+
+    <div className="room-types-container">
+      <div className="room-type">
+        <p className="p-room-type">One Bedroom</p>
+        <p className="p-room-info">50sqm</p>
+        <p className="p-room-info">1 bath</p>
+        <p className="p-room-info">JPY 350,000,000</p>
+      </div>
+      <div className="room-type">
+        <p className="p-room-type">Two Bedroom</p>
+        <p className="p-room-info">70sqm</p>
+        <p className="p-room-info">2 bath</p>
+        <p className="p-room-info">JPY 450,000,000</p>
+      </div>
+      <div className="room-type">
+        <p className="p-room-type">Three Bedroom</p>
+        <p className="p-room-info">90sqm</p>
+        <p className="p-room-info">2 bath</p>
+        <p className="p-room-info">JPY 550,000,000</p>
+      </div>
+      <div className="room-type">
+        <p className="p-room-type">Four Bedroom Penthouse</p>
+        <p className="p-room-info">150sqm</p>
+        <p className="p-room-info">5 bath</p>
+        <p className="p-room-info">JPY 850,000,000</p>
+      </div>
+    </div>
+  </div>
   )
 }
 

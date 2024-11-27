@@ -38,3 +38,33 @@
 .text-container {
   width: 32vw;
 }
+
+.room-types-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #B68E55;
+  padding: 40px 0px;
+  width: 100vw;
+  align-items: center;
+}
+
+.room-type {
+  display: flex;
+  justify-content: space-between;
+  width: 64vw;
+  text-align: center;
+}
+
+.p-room-type {
+  margin-top: 8px;
+  padding: 8px 0px;
+  font-weight: bold;
+  color: rgb(252, 252, 252);
+}
+
+.p-room-info {
+  margin-top: 8px;
+  padding: 8px 0px;
+  font-weight: lighter;
+  color: rgb(252, 252, 252);
+}
