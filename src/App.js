@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Landing from './components/Landing';
 import ThreeHighlight from './components/ThreeHighlights';
 import Accomodation from './components/Accommodation';
+import Wellness from './components/Wellness';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Landing />
       <ThreeHighlight />
       <Accomodation />
+      <Wellness />
     </div>
   );
 }
