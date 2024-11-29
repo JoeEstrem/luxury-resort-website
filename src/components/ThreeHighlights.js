@@ -14,7 +14,7 @@ function ThreeHighlights() {
           }
         });
       },
-      { threshold: 0.75 }
+      { threshold: 0.33 }
     );
     images.forEach((image) => observer.observe(image));
     return () => observer.disconnect();
@@ -29,25 +29,25 @@ function ThreeHighlights() {
           className="highlight-image"
         />
         <h3>World-class</h3>
-        <p>Not only meeting but exceeding world-class expectations for luxury and comfort.</p>
-      </div>
-      <div className="highlight-container">
-        <img
-          src={require('../imgs/Onsen-pexels-yaroslav-shuraev-7041568.jpg')}
-          alt="Highlight - Wonder"
-          className="highlight-image"
-        />
-        <h3>Wonderland</h3>
-        <p>World-famous powdered snow perfect for skiing.</p>
+        <p>Built with sophistication, every detail reflects elegance and Japanese beauty. Enjoy bespoke services that set a new standard in luxury.</p>
       </div>
       <div className="highlight-container">
         <img
           src={require('../imgs/forest-ciprian-boiciuc-kKadFByUqEo-unsplash.jpg')}
+          alt="Highlight - Wonder"
+          className="highlight-image"
+        />
+        <h3>Wonderland</h3>
+        <p>Surrounded by breathtaking scenery, this destination boasts Japan’s famous powdered snow. Experience this enchanting escape.</p>
+      </div>
+      <div className="highlight-container">
+        <img
+          src={require('../imgs/Onsen-pexels-yaroslav-shuraev-7041568.jpg')}
           alt="Highlight - Wellness"
           className="highlight-image"
         />
         <h3>Wellness</h3>
-        <p>Recover with tranquil massages & warming onsens.</p>
+        <p>Rejuvenate your senses with traditional Japanese Onsen and holistic spa treatments. Wellness here is elevated to an art of pure serenity.</p>
       </div>
     </div>
   )

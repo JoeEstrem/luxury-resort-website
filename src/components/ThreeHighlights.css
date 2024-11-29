@@ -35,7 +35,7 @@ p {
 
 .highlight-image {
   width: 16vw;
-  height: 48vh;
+  height: 64vh;
   object-fit: cover;
   overflow: hidden;
 }
