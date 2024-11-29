@@ -1,18 +1,17 @@
 h1 {
   font-family: "Cormorant Garamond";
-  font-size: 32px;
+  font-size: 40px;
   font-weight: normal;
   color: rgb(25, 25, 25);
   margin-bottom: 0px;
-  padding-left: 80px;
 }
 
 .p-landing {
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: lighter;
   color: rgb(25, 25, 25);
-  padding: 8px 0px 0px 80px;
+  padding: 16px 0px 0px 0px;
   text-align: left;
   margin-top: 0px
 }
@@ -20,9 +19,12 @@ h1 {
 .landing-block {
   background-image: url('/src/imgs/Resort-pexels-imadclicks-10964883.jpg');
   width: 100vw;
-  height: 64vh;
+  height: 80vh;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .landing-gradient {
@@ -30,8 +32,15 @@ h1 {
   position: absolute;
   z-index: 10;
   width: 100vw;
-  height: 64vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+
+.landing-text {
+  margin-top: 80px;
+  width: 80vw;
 }
