@@ -14,7 +14,7 @@ function Accomodation() {
           }
         });
       },
-      { threshold: 0.75 }
+      { threshold: 0.33 }
     );
     images.forEach((image) => observer.observe(image));
     return () => observer.disconnect();
@@ -25,17 +25,17 @@ function Accomodation() {
     <div className="accommodation-container">
       <div className="accommodation-image-container">
         <img
-          src={require('../imgs/Interior-pexels-roman-odintsov-7539892.jpg')}
+          src={require('../imgs/Bed-3-pexels-chich-choe-design-328303649-13813465.jpg')}
           alt="Setsuka accommodation"
           className="side-image"
         />
         <img
-          src={require('../imgs/Interior-pexels-roman-odintsov-7539892.jpg')}
+          src={require('../imgs/Kitchen-pexels-ansar-muhammad-380085065-27562206.jpg')}
           alt="Setsuka accommodation"
           className="center-image"
         />
         <img
-          src={require('../imgs/Interior-pexels-roman-odintsov-7539892.jpg')}
+          src={require('../imgs/Bath--4.png')}
           alt="Setsuka accommodation"
           className="side-image"
         />
