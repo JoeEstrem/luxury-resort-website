@@ -48,30 +48,32 @@ function Accomodation() {
     </div>
 
     <div className="room-types-container">
+    <h3 className="white">Available Lodge Types</h3>
       <div className="room-type">
         <p className="p-room-type">One Bedroom</p>
         <p className="p-room-info">50sqm</p>
         <p className="p-room-info">1 bath</p>
-        <p className="p-room-info">JPY 350,000,000</p>
+        <p className="p-room-info">JPY 350,000,000~</p>
       </div>
       <div className="room-type">
         <p className="p-room-type">Two Bedroom</p>
         <p className="p-room-info">70sqm</p>
         <p className="p-room-info">2 bath</p>
-        <p className="p-room-info">JPY 450,000,000</p>
+        <p className="p-room-info">JPY 450,000,000~</p>
       </div>
       <div className="room-type">
         <p className="p-room-type">Three Bedroom</p>
         <p className="p-room-info">90sqm</p>
         <p className="p-room-info">2 bath</p>
-        <p className="p-room-info">JPY 550,000,000</p>
+        <p className="p-room-info">JPY 550,000,000~</p>
       </div>
       <div className="room-type">
-        <p className="p-room-type">Four Bedroom Penthouse</p>
+        <p className="p-room-type">Four Bedroom</p>
         <p className="p-room-info">150sqm</p>
         <p className="p-room-info">5 bath</p>
-        <p className="p-room-info">JPY 850,000,000</p>
+        <p className="p-room-info">JPY 850,000,000~</p>
       </div>
+      <button className="inquire-button">Inquire</button>
     </div>
   </div>
   )
