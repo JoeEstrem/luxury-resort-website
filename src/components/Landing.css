@@ -17,7 +17,7 @@ h1 {
 }
 
 .landing-block {
-  background-image: url('/src/imgs/Resort-pexels-imadclicks-10964883.jpg');
+  background-image: url('/src/imgs/Setsuka-Exterior-crop2.png');
   width: 100vw;
   height: 80vh;
   background-size: cover;
@@ -28,7 +28,7 @@ h1 {
 }
 
 .landing-gradient {
-  background: linear-gradient(to right, rgba(252, 252, 252, 1) 0%, rgba(252, 252, 252, 0) 100%);
+  background: linear-gradient(to right, rgba(252, 252, 252, .9) 0%, rgba(252, 252, 252, 0) 80%);
   position: absolute;
   z-index: 10;
   width: 100vw;
