@@ -6,6 +6,7 @@ import ThreeHighlight from './components/ThreeHighlights';
 import Accomodation from './components/Accommodation';
 import Wellness from './components/Wellness';
 import Footer from './components/Footer';
+import Wonderland from './components/Wonderland';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Landing />
       <ThreeHighlight />
       <Accomodation />
+      <Wonderland />
       <Wellness />
       <Footer />
     </div>
