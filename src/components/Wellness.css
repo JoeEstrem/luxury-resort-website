@@ -1,13 +1,34 @@
 .wellness-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 48px 0px;
+  width: 80vw;
+  margin: 0px auto;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
-.wellness-img {
-  width: 64vw;
-  height: 48vh;
+.wellness-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.wellness-image-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.wellness-img-large {
+  width: 48vw;
+  height: 64vh;
+  object-fit: cover;
+  object-position: bottom;
+  overflow: hidden;
+}
+
+.wellness-img-small {
+  width: 16vw;
+  height: 64vh;
   object-fit: cover;
   object-position: bottom;
   overflow: hidden;
@@ -16,4 +37,5 @@
 .wellness-text {
   width: 32vw;
   text-align: center;
+  margin: 0px auto;
 }
