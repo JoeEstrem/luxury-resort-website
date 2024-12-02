@@ -14,7 +14,7 @@ function Wonderland() {
           }
         });
       },
-      { threshold: 0.33 }
+      { threshold: 0.25 }
     );
     images.forEach((image) => observer.observe(image));
     return () => observer.disconnect();

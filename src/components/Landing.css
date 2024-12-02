@@ -28,7 +28,7 @@ h1 {
 }
 
 .landing-gradient {
-  background: linear-gradient(to right, rgba(252, 252, 252, .9) 0%, rgba(252, 252, 252, 0) 80%);
+  background: linear-gradient(to right, rgba(252, 252, 252, .9) 26%, rgba(252, 252, 252, 0) 60%);
   position: absolute;
   z-index: 10;
   width: 100vw;

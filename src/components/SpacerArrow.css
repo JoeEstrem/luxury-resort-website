@@ -1,0 +1,10 @@
+.arrow-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2vw auto 0vh auto;
+}
+
+.arrow {
+  width: 8vw;
+}

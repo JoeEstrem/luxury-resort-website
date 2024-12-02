@@ -1,7 +1,7 @@
 .wellness-container {
-  padding: 48px 0px;
   width: 80vw;
   margin: 0px auto;
+  margin-bottom: 160px;
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 1s ease-out, transform 1s ease-out;
